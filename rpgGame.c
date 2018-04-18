@@ -1731,7 +1731,7 @@ int main(void)
 											printf("You won the jackpot! Nobody knows what it is however...");
 										}
 									}
-									FILE *outfile = fopen( "outfile.txt", "a");
+									FILE *outfile = fopen( "Yourjackpot.txt", "a");
 									fclose(outfile);
 
 								}
